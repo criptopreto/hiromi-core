@@ -1,0 +1,55 @@
+.react-multi-carousel-item {
+  margin-right: 0.7em !important;
+}
+
+.bg-hiromi-gr {
+  background: rgb(36, 36, 36);
+  background: -moz-linear-gradient(
+    319deg,
+    rgba(36, 36, 36, 1) 0%,
+    rgb(75, 75, 75) 100%
+  );
+  background: -webkit-linear-gradient(
+    319deg,
+    rgba(36, 36, 36, 1) 0%,
+    rgb(80, 80, 80) 100%
+  );
+  background: linear-gradient(
+    319deg,
+    rgba(36, 36, 36, 1) 0%,
+    rgb(78, 78, 78) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#242424",endColorstr="#444444",GradientType=1);
+}
+
+.bg-hiromi {
+  background: radial-gradient(
+      farthest-corner circle at 100% 200%,
+      #32c0f3 0%,
+      #363636 30%,
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner circle at 100% 100%,
+      #363636 0%,
+      #3a42be 30%,
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner circle at 0px 0px,
+      #363636 10%,
+      #86279e 30%,
+      #d60d6b 50%,
+      transparent
+    );
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}

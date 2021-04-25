@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+html {
+  font-family: "Roboto", ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+.shadow-hiromi {
+  -webkit-box-shadow: 2px 3px 14px 8px rgb(122 41 230 / 35%);
+  -moz-box-shadow: 2px 3px 14px 8px rgb(122 41 230 / 35%);
+  box-shadow: 2px 3px 14px 8px rgb(122 41 230 / 35%);
+}
+
+.shadow-hiromi-sm {
+  -webkit-box-shadow: 2px 3px 14px 8px rgb(131 41 230 / 14%);
+  -moz-box-shadow: 2px 3px 14px 8px rgb(131 41 230 / 14%);
+  box-shadow: 2px 3px 14px 8px rgb(131 41 230 / 14%);
+}
+
+.shadow-hiromi-select {
+  -webkit-box-shadow: 0 0 8px 5px rgb(51 169 255 / 32%);
+  -moz-box-shadow: 0 0 8px 5px rgb(51 169 255 / 32%);
+  box-shadow: 0 0 8px 5px rgb(51 169 255 / 32%);
+}
